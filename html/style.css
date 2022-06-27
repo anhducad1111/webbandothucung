@@ -94,7 +94,7 @@ ul{
 	cursor: pointer;
 }
 .hamburger span{
-	display: block;
+	display: none;
 	width: 33px;
 	height: 4px;
 	margin-bottom: 5px;
