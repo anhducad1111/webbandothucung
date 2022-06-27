@@ -45,15 +45,16 @@ ul{
 }
 .header-content-nav{
 	width: 50%;
-	display: none;
+	display: flex;
 }
 .header-content-nav ul{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 .header-content-nav ul li{
-	margin-right: 30px;
+	margin-right: 10px;
 }
 .header-content-nav ul li:hover a{
 	color: rgb(255, 255, 129);
@@ -61,7 +62,7 @@ ul{
 }
 .header-content-nav ul li a{
 	font-weight: bold ;
-	font-size: 18px;
+	font-size: 16px;
 	transition: all 0.3s ease;
 	position: relative;
 	color: #000000;
@@ -83,7 +84,7 @@ ul{
 }
 .hamburger{
 	margin-right: 20px;
-	display: block;
+	display: none;
 	position: relative;
 	z-index: 1;
 	user-select: none;
@@ -186,6 +187,17 @@ header{
 	}
 	.header-content-search{
 		display: flex;
+	}
+	.header-content-nav ul li{
+		margin-right: 30px;
+	}
+
+	.header-content-nav ul li a{
+		font-weight: bold ;
+		font-size: 18px;
+		transition: all 0.3s ease;
+		position: relative;
+		color: #000000;
 	}
 }
 /* --------------------------------slider--------------------------------------- */
