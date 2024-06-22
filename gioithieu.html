@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <!-- js -->
+    <script src="https://kit.fontawesome.com/f1e3ccc4a8.js" crossorigin="anonymous"></script>
+    <title>Giới thiệu</title>
+    <style>
+        .row{
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body class="gt">
+    <!-- ----------------------------------------------header---------------------------------------------- -->
+    <header >
+        <div class="container">
+            <div class="header-content row">
+                <div class="header-content-logo">
+                    <img src="catdylogo.jpg" alt="">
+                </div>
+                <div class="header-content-nav">
+                    <ul>
+                        <li><a href="index.html" class="header-content-nav-link">Trang chủ</a></li>
+                        <li><a href="bosuutap.html" class="header-content-nav-link">Bộ sưu tập</a></li>
+                        <li><a href="blogs.html" class="header-content-nav-link">Blogs</a></li>
+                        <li><a href="gioithieu.html" class="header-content-nav-link">Giới thiệu</a></li>
+                        <li><a href="lienhe.html" class="header-content-nav-link">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="header-content-search">
+                    <input type="text" placeholder="Tìm kiếm" class="searchbox">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="header-content-icon">
+                    <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+                <button class="hamburger ham-active">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- -------------------------------------gioithieu-------------------------------------------- -->
+    <section class="main gioithieu">
+        <div class="container">
+            <div class="introduction row">
+                <div class=" introduction-left col-md-5 col-sm-12">
+                    <img src="gioithieu.jpg" alt="" width="100%">
+                </div>
+                <div class=" introduction-right col-md-7 col-sm-12">
+                    <h3>Chào mừng đến với CATDY</h3>
+                    <h4>CATDY là cửa hàng chuyên cung cấp đồ dùng cho thú cưng nhà bạn như đồ ăn, chuồng, vòng cổ, đồ chơi và nhiều phụ kiện khác cho chó, mèo và các loại động vật khác. Ngoài ra ở CATDY còn có những bài viết chia sẻ cách chăm sóc và nuôi nấng thú cưng của bạn tốt hơn cũng những dịch vụ khác như spa cho chó mèo và trông giữ thú cưng lúc bạn vắng nhà. Cửa hàng chúng tôi có hệ thống nhiều chi nhánh trải rộng khắp Việt Nam vì vậy bạn có thể tìm đến chúng tôi một cách dễ dàng nhất.  </h4>
+                    <h4>Hy vọng mọi người sẽ hài lòng với dịch vụ của chúng tôi.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------------------footer------------------------------------------ -->
+    <footer>
+        <div class="container">
+            <div class="footer-content row">
+                <div class="footer-content-item">
+                    <h3>THÔNG TIN</h3>
+                    <p>Đại học CNTT&TT Việt-Hàn</p>
+                    <p>470 Trần Đại Nghĩa, Hoà Quý, Ngũ Hành Sơn</p>
+                    <p>0943079599</p>   
+                    <p>ducna2.21it@vku.udn.vn</p>
+                </div>
+                <div class="footer-content-item">
+                    <h3>LIÊN HỆ</h3>
+                    <p>Giới thiệu</p>
+                    <p>Liên hệ với chúng tôi</p>
+                    <p>Tin tức</p>   
+                    <p>Trợ giúp</p>
+                </div>
+                <div class="footer-content-item">
+                    <h3>HỖ TRỢ KHÁCH HÀNG</h3>
+                    <p>Hỏi đáp</p>
+                    <p>Đăng ký tài khoản</p>
+                    <p>Chính sách giao hàng</p>   
+                    <p>Chăm sóc đổi trả hoàn tiền</p>
+                </div>
+            </div>
+            <div class="footer-content-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="footer-copyright">
+                @AnhDuc 2022. All rights reserved
+            </div>
+        </div>
+    </footer>
+    <!-- ---------------------------script--------------------------- -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:4
+            }
+    }
+})
+    </script>
+</body>
+</html>
